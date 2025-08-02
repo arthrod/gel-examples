@@ -1,7 +1,7 @@
-import requests
 from pydantic import BaseModel
 from datetime import datetime
 import html
+from security import safe_requests
 
 
 class WebSource(BaseModel):
@@ -59,7 +59,7 @@ def fetch_web_sources(query: str, limit: int = 5) -> list[WebSource]:
     )
 
     # Search for stories
-    response = requests.get(
+    response = safe_requests.get(
         search_url,
         params={
             "query": query,
@@ -76,7 +76,7 @@ def fetch_web_sources(query: str, limit: int = 5) -> list[WebSource]:
     web_sources = []
     for hit in search_result.get("hits", []):
         item_url = f"https://hn.algolia.com/api/v1/items/{hit['story_id']}"
-        response = requests.get(item_url)
+        response = safe_requests.get(item_url)
         response.raise_for_status()
         item_result = response.json()
 
