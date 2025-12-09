@@ -36,7 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.0",
+		"@fontsource/fira-mono": "^4.5.10",
 		"cookie": "^0.4.1"
 	}
 }
