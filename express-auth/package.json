@@ -15,7 +15,7 @@
     "@edgedb/auth-express": "^0.1.0-canary.20231219T151133",
     "cookie-parser": "^1.4.6",
     "edgedb": "^1.4.1",
-    "express": "^4.18.2"
+    "express": "^4.22.0"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.6",
