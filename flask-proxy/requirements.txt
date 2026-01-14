@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file=requirements.txt requirements.in
 #
-authlib==1.0.1
+authlib==1.6.6
     # via -r requirements.in
 certifi==2021.10.8
     # via requests
@@ -36,7 +36,7 @@ requests==2.27.1
     # via -r requirements.in
 typing-extensions==4.3.0
     # via edgedb
-urllib3==1.26.9
+urllib3==2.6.3
     # via requests
-werkzeug==2.1.1
+werkzeug==3.1.5
     # via flask
