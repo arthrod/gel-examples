@@ -53,5 +53,5 @@ sniffio==1.2.0
     #   httpx
 typing-extensions==4.2.0
     # via edgedb
-werkzeug==2.1.1
+werkzeug==3.1.5
     # via flask
