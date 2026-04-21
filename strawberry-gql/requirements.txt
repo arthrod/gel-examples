@@ -25,9 +25,9 @@ colorama==0.4.4
 commonmark==0.9.1
     # via rich
 edgedb==0.24.0
-    # via -r strawberry-gql/requirements.in
+    # via -r requirements.in
 fastapi==0.78.0
-    # via -r strawberry-gql/requirements.in
+    # via -r requirements.in
 graphql-core==3.2.1
     # via strawberry-graphql
 h11==0.12.0
@@ -39,7 +39,7 @@ httpcore==0.15.0
 httptools==0.4.0
     # via uvicorn
 httpx[cli]==0.23.0
-    # via -r strawberry-gql/requirements.in
+    # via -r requirements.in
 idna==3.3
     # via
     #   anyio
@@ -53,7 +53,7 @@ pygments==2.12.0
     #   strawberry-graphql
 python-dateutil==2.8.2
     # via strawberry-graphql
-python-dotenv==0.20.0
+python-dotenv==1.2.2
     # via uvicorn
 python-multipart==0.0.5
     # via strawberry-graphql
@@ -75,14 +75,14 @@ sniffio==1.2.0
 starlette==0.19.1
     # via fastapi
 strawberry-graphql==0.114.2
-    # via -r strawberry-gql/requirements.in
+    # via -r requirements.in
 typing-extensions==4.2.0
     # via
     #   edgedb
     #   pydantic
     #   strawberry-graphql
 uvicorn[standard]==0.18.2
-    # via -r strawberry-gql/requirements.in
+    # via -r requirements.in
 uvloop==0.16.0
     # via uvicorn
 watchfiles==0.15.0
