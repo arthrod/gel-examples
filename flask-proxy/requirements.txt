@@ -30,12 +30,14 @@ markupsafe==2.1.1
     # via jinja2
 pycparser==2.21
     # via cffi
-pyjwt==2.3.0
+pyjwt==2.13.0
     # via -r requirements.in
 requests==2.27.1
     # via -r requirements.in
 typing-extensions==4.3.0
-    # via edgedb
+    # via
+    #   edgedb
+    #   pyjwt
 urllib3==1.26.9
     # via requests
 werkzeug==2.1.1
