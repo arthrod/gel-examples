@@ -8,13 +8,13 @@ authlib==1.0.1
     # via -r requirements.in
 certifi==2021.10.8
     # via requests
-cffi==1.15.0
+cffi==2.0.0
     # via cryptography
 charset-normalizer==2.0.12
     # via requests
 click==8.1.2
     # via flask
-cryptography==37.0.2
+cryptography==48.0.1
     # via authlib
 edgedb==0.24.0a5
     # via -r requirements.in
@@ -34,8 +34,10 @@ pyjwt==2.3.0
     # via -r requirements.in
 requests==2.27.1
     # via -r requirements.in
-typing-extensions==4.3.0
-    # via edgedb
+typing-extensions==4.15.0
+    # via
+    #   cryptography
+    #   edgedb
 urllib3==1.26.9
     # via requests
 werkzeug==2.1.1
